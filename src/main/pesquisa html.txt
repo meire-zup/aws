@@ -1,0 +1,43 @@
+O que é html?
+ 
+O html é uma linguagem de marcação de hipertexto (hipertext markup language) que tem como função estruturar os conteúdos de uma página da web.
+Para quem não sabe um hipertexto são testos linkados onde você consegue referenciar um outro texto a partir desse texto com um clique. 
+O objetivo de um hipertexto  é trazer facilidade de navegação  e é para isso que o html veio. 
+A forma de você realizar essas marcações html é com o uso de tags que é o nome adotado pelo html de marcar um determinado elemento da página. 
+Uma tag geralmente se inicia com o maior e em seguida nome da tag maior.
+<html> 
+Muito parecido com as dependências no xml, essa tag geralmente precisa ser fechada. 
+</html> 
+
+Então toda a estrutura de uma página como títulos, links, botões e caixas de edição são definidos por tags html. 
+
+O html trabalha com ierarquias e seções. 
+Normalmente ao se criar uma página da web nós dividimos essa página em seções. 
+
+Nós temos a primeira seção chamada <head>  onde nela definimos o título da página e alguns metadados de configuração tais como a compatibilidade dessa página com telefones móveis. 
+Em seguida temos a seção <body> que é onde fica todos os conteúdos que serão exibidos para quem abrir a página. 
+É ali que fica elementos como títulos, links, entre outros componentes vistos pelo usuário. 
+Depois temos a seção footer que é onde fica o nome do autor ou direitos autorais. 
+
+
+Cada uma dessas seções contém as respectivas tags que abrem e fecham, sendo que a tag principal que engloba todas as outras é o <html> 
+
+Segue um exemplo de como seria uma estrutura base de uma página da web: 
+
+ 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<footer>
+ 
+</footer> 
+
+</body>
+</html>
