@@ -1,0 +1,33 @@
+World Wide Web
+Também conhecida como web, refere-se a todos os sites ou páginas públicas que os usuários podem acessar em seus computadores locais e outros dispositivos através da Internet. Essas páginas e documentos são interligados por meio de hiperlinks nos quais os usuários clicam para obter informações. Essas informações podem estar em diferentes formatos, incluindo texto, imagens, áudio e vídeo.
+
+O termo World Wide Web não é sinônimo de internet. Em vez disso, a World Wide Web faz parte da internet.
+
+
+URL - Uniform Resource Locator (URL)
+Tradução: localizador uniforme de recursos"
+Um URL se refere ao endereço de rede no qual se encontra algum recurso.
+
+protocolo://dominio:porta/caminho/recurso?query_string#fragmento
+O protocolo. Poderá ser HTTP, HTTPS, FTP etc.
+O domínio é o endereço da máquina: designa o servidor que disponibiliza o documento ou recurso solicitado.
+A porta é o ponto lógico no qual se pode executar a conexão com o servidor. (opcional)
+O caminho especifica o local (geralmente num sistema de arquivos) onde se encontra o recurso, dentro do servidor.
+A query string é um conjunto de um ou mais pares parâmetro-argumento, ex.: nome=fulano. É uma string enviada ao servidor para que seja possível filtrar ou mesmo criar o recurso. (opcional)
+O fragmento é uma parte ou posição específica dentro do recurso. (opcional)
+
+
+
+Protocolo TCP/IP
+Junção de dois protocolos, o TCP (https://www.ietf.org/rfc/rfc793.txt) com o protocolo IP (https://www.ietf.org/rfc/rfc791.txt).
+Baseado no modelo OSI, o protocolo TCP/IP usa 4 camadas:
+APLICAÇÃO: (aplicação/apresentação): programas da aplicação.
+protocolos atuantes nessa camada, ftp, http, smtp, pop,dns, telnet
+TRANSPORTE: (sessão/transporte): Controle de fluxo fim-a-fim para as aplicações. Endereçar os programas da camada de aplicação, Inclusão de mecanismos de confiabilidade.
+protocolos atuantes nessa camada: TCP e UDP.
+
+
+Protocolo TCP/IP
+INTERNET: (rede):é responsável pelo endereçamento, roteamento dos pacotes, controle de envio e recepção (erros, bufferização, fragmentação, sequência, reconhecimento, etc.). 
+protocolos atuantes: ip,icmp, arp, rarp
+ACESSO A REDE: (físico/enlace): Traduzir os endereços IP em endereços físicos, encapsular os datagramas IP em quadros do nível físico e conversão desses em pulsos elétricos, verificação de erros dos frames recebidos, inclusão de informações de verificação de erro para frames emitidos, extrair os datagramas IP dos quadros recebidos.
