@@ -1,0 +1,41 @@
+O que é Cloud?
+
+É uma tecnologia que permite acesso remoto a softwares, armazenamento de arquivos e processamento de dados por meio da internet.
+
+O que é Iaas?
+
+(Infraestrutura como um Serviço), Esse serviço provê recursos básicos, como servidores, armazenamento, sistemas operacionais, etc, exemplo de IaaS é a Amazon Web Service, serviço que oferece soluções para empresas dos mais diferentes segmentos do mercado com orçamento variável e testes de recursos.
+Exemplo: Máquinas Virtuais, ter dois sistema operacional no mesmo pc Linux, Windows, Google Drive, Dropbox. 
+
+O que é Paas?
+
+(Plataforma como Serviço), é um modelo de nuvem que fornece um ambiente exclusivo para o desenvolvimento de projetos virtuais. Assim como os outros modelos, é possível utilizar os recursos conforme a necessidade e desenvolver programas e aplicativos da sua empresa em um servidor na nuvem com total segurança.
+AWS Lambda, Banco de dados, 
+
+O que é Saas? 
+
+Serviços de aplicativos em nuvem, representa a opção mais utilizada para empresas no mercado de nuvem. O SaaS utiliza a internet para entregar aplicativos, que são gerenciados por um fornecedor terceirizado, aos seus usuários. 
+Exemplos Microsoft Office 365, Word, Excel, Youtube, Netflix.
+
+Bônus. CaaS é um modelo que oferece uma plataforma para criar, implantar e gerenciar contêineres, que são unidades leves e portáteis de software que empacotam código e suas dependências. 
+
+Exemplo Docker 
+
+
+Mostre um exemplo prático da utilização da AWS.
+
+Netflix, Você faz seu login e acessa o filme que você  quer a hora que você quer basta ser assinante e ter internet. 
+
+Spotify é a mesma coisa da Netflix você acessa e escolhe sua play list, podcast e etc.
+
+Game Pass Ultimate você acessa jogos do pc, tablet, celular que estão em servidores e consegue jogar, jogos que muitas vezes iriam precisar de um console ou um pc gamer de ultima geração para rodar.
+
+
+
+
+
+
+
+
+
+
