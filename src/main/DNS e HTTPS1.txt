@@ -1,0 +1,19 @@
+O que é DNS? 
+O DNS (Domain Name System – Sistema de nome de domínio) converte nomes de domínio legíveis por humanos (por exemplo, www.amazon.com) em endereços IP legíveis por máquina (por exemplo, 192.0.2.44).
+
+A função do DNS não é hospedar sites ou aplicações que criamos, mas sim permitir que as requisições cheguem aos locais corretos.
+Um servidor DNS é feito única e exclusivamente para a tradução de domínios para endereços de IP. 
+
+Essa tradução do nome de domínio para o IP acontece em uma fração de segundos. Não é algo que vá perceber no uso rotineiro do navegador de internet, mas ela existe.
+
+O que é o protocolo HTTP?
+O HTTP é um protocolo de comunicação, ou seja, um convenção de regras e padrões que controla e possibilita uma conexão e troca de dados entre dois sistemas computacionais.
+É baseado no modelo de cliente-servidor, ou seja, de um lado, um navegador  requisita um determinado dado, e do outro, um computador (ou servidor) retorna a informação desejada (ou não, caso ela não seja encontrada, ocorra um erro ou não exista). Criado na década de 1990, o HTTP surgiu da necessidade de se padronizar a troca de informações pela internet, de uma maneira que fosse leve, rápida e compreendida por todos os computadores conectados à rede.
+A versão atual do protocolo HTTP é chamada de HTTP/2, divulgada em 2014. Essa versão trouxe várias melhorias de segurança e desempenho, visando também a crescente utilização de smartphones na navegação pela internet. 
+Métodos HTTP e segurança
+O protocolo HTTP define oito métodos de requisição (GET, POST, PUT, DELETE, HEAD, TRACE, OPTIONS e CONNECT) para indicar qual ação deve ser realizada no recurso especificado.
+Os métodos GET e POST, PUT e DELETE são os mais utilizados em aplicações web. Um servidor HTTP deve implementar, pelo menos, os métodos GET e HEAD para ser funcional.
+O HTTP funciona em conjunto com algum outro protocolo de transferência, sendo o TCP/IP o mais comum. 
+Uma característica importante do protocolo HTTP que todo usuário deve se atentar é quanto às conexões seguras. Na web, é feita pelo HTTPS(Hyper Text Tansfer Protocol Secure), uma implementação do protocolo HTTP sobre uma camada adicional de encriptação. 
+Essa camada transmite os dados de forma criptografada, além de permitir a verificação de autenticidade do servidor e do cliente por meio de certificados digitais. No entanto, isso nem sempre significa que o site em si é seguro, mas apenas que a conexão está protegida do acesso de terceiros.
+
