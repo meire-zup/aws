@@ -1,0 +1,25 @@
+REST API
+Rest vem de Representation State Transfer e é um modelo arquitetural, ou seja, rest é uma especificação que define a forma de comunicação entre componentes de software na web. 
+
+Rest surgiu no inicio dos anos 2000 a partir da tese de phd de um cientista chamado Roy Fielding. Ele formalizou um conjunto de regras para o desenvolvimento de web api’s.
+
+Essas regras são chamadas de constraints e uma rest api é uma api que segue essas regras definidas po Roy Fielding.
+
+Constraints:
+
+1 - CLIENTE - servidor - significa que é necessário um cliente, que pode ser uma aplicação web, o front end ou outra aplicação consumidora enviando requisições para um servidor, ou seja, a api. E esse servidor devolvendo a resposta.
+
+2 - STATELESS -  sem estado -  significa que a requisição deve conter tudo o que seja necessário para ser processada. O servidor não pode reconhecer o cliente.
+
+3 - CACHE - a api pode fazer cache das respostas das requisições. Exemplo uma api que retorna uma lista de cidades.
+
+4 - INTEFACE UNIFORME - é um conjunto de operações bem definidas usando URI e um protocolo de comunicação como o protocolo http: requisições comos verbos http e devolvendo respostas padronizadas.
+
+5 - SISTEMAS EM CAMADAS - entre um cliente que consome a api e  o servidor que hospeda a api, pode ter outros servidores, como por exemplo uma camada de segurança, cache, entre outros.
+
+6 - CÓDIGO SOB DEMANDA - diz que o servidor pode mandar como resposta algum código que pode ser executado pelo cliente. Por exemplo retornar um javaScripti responsável por montar um gráfico e o cliente executar esse código e mostrar para o usuário na web.
+
+Diferença entre REST x RESTFUL:
+
+Rest é o estilo arquitetural que possui as constraints, é a especificação.
+Restful é uma api que segue todas as constraints. Isso na teoria porque na prática nem todas as api’s seguem todas as constraints, por isso no mercado também é usado o termo verdadeiramente restful para dizer que a api segue realmente todas as constraints.
